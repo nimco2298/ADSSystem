@@ -3,12 +3,14 @@
  */
 package entity;
 
+
 /**Medication class stores info about a specific medication. 
  * A nurse is able to modify meds and a pharm tech is able to add/remove meds
  * @author Nimco
  *
  */
 public class Meds {
+
 
 	/** Med ID */
 	private int  medID;
@@ -134,4 +136,5 @@ public class Meds {
 				 "Expiration Date: " +  this.expirationDate + "\n";
 		return result;
 	}
+
 }
